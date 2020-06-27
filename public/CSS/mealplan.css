@@ -1,0 +1,34 @@
+.background {
+    background-image: url('/images/food.jpg');
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+@media only screen and (min-width: 400px) {
+    .background { 
+        background-image: url('/images/food.jpg'); 
+   }
+}
+@media (max-width: 400px) {
+    .navbar-material .nav-wrapper .brand-logo img {
+      height: 40px;
+    }
+  }
+.nav-wrapper {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 5%;
+  }
+
+
+.container-footer {
+    padding-bottom: 2%;
+}
+.side-nav {
+    background-color: #b0bec5;
+    padding-top: 5%;
+  }
+
+.card-title {
+  text-align: center;
+}
